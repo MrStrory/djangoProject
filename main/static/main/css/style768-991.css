@@ -1,0 +1,67 @@
+.content {
+    width: 100%;
+}
+
+.header {
+    padding: 6px 20px 0;
+}
+
+.arrowLeft, .arrowRight {
+    display: none;
+}
+
+.carouselContent {
+    height: 90%;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.text-carousel {
+    margin-left: 30px;
+}
+
+.text-carousel h3 {
+    font-size: 38px;
+}
+
+.text-carousel button {
+    margin-left: 0;
+}
+
+.categories {
+    padding-right: 20px;
+    padding-left: 20px;
+    display: block;
+}
+
+.categories section {
+    width: auto;
+    min-height: 190px;
+}
+
+.mini-del {
+    height: 1px;
+    background: black;
+}
+
+.categories section:not(:first-child) {
+    margin-top: 20px;
+}
+
+.categories section:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.logoSection {
+    float: left;
+}
+
+.categories section h4 {
+    padding-top: 40px;
+}
+
+.shoppingCart {
+    padding-right: 40px;
+    padding-left: 40px;
+}

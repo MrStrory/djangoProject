@@ -1,0 +1,21 @@
+.product-text {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 0;
+}
+
+.product-content {
+    display: block;
+    padding-bottom: 30px;
+}
+
+.product-image {
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+}
+
+.product-price-btn {
+    margin-top: 40px;
+}

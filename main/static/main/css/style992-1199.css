@@ -1,0 +1,25 @@
+.content {
+    width: 100%;
+}
+
+.text-carousel {
+    margin-left: 20px;
+}
+
+.text-carousel h3 {
+    font-size: 37px;
+}
+
+.text-carousel button {
+    margin-left: 0;
+}
+
+.categories {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.shoppingCart {
+    padding-right: 40px;
+    padding-left: 40px;
+}

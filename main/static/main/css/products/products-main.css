@@ -1,0 +1,72 @@
+.main-products {
+    padding: 20px 40px;
+    background: #333334;
+}
+
+.products-h {
+    text-align: center;
+    font-family: "Segoe WP Light", sans-serif;
+    color: white;
+}
+
+.product-del {
+    height: 1px;
+    background: #fff;
+    width: calc(100% + 80px);
+    margin-left: -40px;
+    margin-bottom: 20px;
+}
+
+.product-unit {
+    width: 200px;
+    border: 2px solid white;
+}
+
+.product-unit img {
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    float: left;
+}
+
+.product-unit-text {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.product-unit-h {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.product-unit-desc {
+    color: #fff;
+    font-family: "Segoe WP Light", sans-serif;
+}
+
+.product-unit-price-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-unit-price {
+    color: #fff;
+    font-family: "Segoe WP Light", sans-serif;
+}
+
+.product-unit-btn {
+    height: 30px;
+    border: none;
+    background: #5094F2;
+}
+
+.product-unit-btn:hover {
+    background: #fff;
+}
+
+.product-units {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 42px;
+    grid-row-gap: 30px;
+}

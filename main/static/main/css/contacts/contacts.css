@@ -1,0 +1,96 @@
+.contacts-main {
+    background: #fff;
+    padding-bottom: 40px;
+    padding-top: 55px;
+}
+
+/*.contacts-form {*/
+/*    width: 500px;*/
+/*    padding-top: 55px;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+.contacts-title {
+    text-align: center;
+    font-family: "Segoe WP Light", sans-serif;
+    font-size: 50px;
+    color: #6C6C6C;
+}
+
+@media (max-width: 575px) {
+    .contacts-title {
+        font-size: 42px;
+    }
+}
+
+.contacts-main form {
+    margin-top: 40px;
+}
+
+.contacts-main label {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contacts-main input:not(:last-child) {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #F2F450;
+    height: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contacts-main input:focus-visible {
+    outline: none;
+}
+
+.contacts-main input:not(:last-child), .contacts-main label{
+    font-family: "Segoe WP Light", sans-serif;
+    color: #6C6C9C;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacts-main textarea {
+    font-family: "Segoe WP Light", sans-serif;
+    color: #6C6C9C;
+    display: block;
+    width: 200px;
+    height: 180px;
+    margin: 0 auto;
+    resize: both;
+    background: #F2F450;
+    border: none;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contacts-main textarea:focus {
+    outline: none;
+}
+
+.contacts-form-btn {
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+    font-family: "Segoe WP Light", sans-serif;
+    color: #6C6C9C;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #F2F450;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contacts-form-btn:hover {
+    background: black;
+}

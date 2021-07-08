@@ -1,0 +1,118 @@
+{% extends "main/main.html" %}
+{% load static %}
+  {% block content %}
+    <div class="carousel">
+        <div class="backgroundCarousel"></div>
+        <div class="carouselContent" id="elem0">
+            <img src="{% static 'main/images/carousel-image.png' %}" alt="phone">
+            <div class="text-carousel">
+                <h3>Lorem Ipsum is simply</h3>
+                <p>
+                    dummy text of the
+                    <br>
+                    printing & typesetting
+                </p>
+                <button>
+                    <img src="{% static 'main/images/carousel-image-button-2.png' %}" alt="check mark">
+
+                    <div class="textButton">
+                        Sign up now
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="carouselContent carousel-hidden" id="elem1">
+            <img src="{% static 'main/images/carousel-image2.png' %}" alt="phone">
+            <div class="text-carousel">
+                <h3>Lorem Ipsum is simply</h3>
+                <p>
+                    dummy text of the slide2
+                    <br>
+                    printing & typesetting
+                </p>
+                <button>
+                    <img src="{% static 'main/images/carousel-image-button-2.png' %}" alt="check mark">
+
+                    <div class="textButton">
+                        Sign up now
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="carouselContent carousel-hidden" id="elem2">
+            <img src="{% static 'main/images/carousel-image3.png' %}" alt="phone">
+            <div class="text-carousel">
+                <h3>Lorem Ipsum is simply</h3>
+                <p>
+                    dummy text of the slide3
+                    <br>
+                    printing & typesetting
+                </p>
+                <button>
+                    <img src="{% static 'main/images/carousel-image-button-2.png' %}" alt="check mark">
+
+                    <div class="textButton">
+                        Sign up now
+                    </div>
+                </button>
+            </div>
+        </div>
+        <img class="arrowLeft" id="leftArrow" src="{% static 'main/images/arrowLeft.png' %}" alt="left arrow">
+        <img class="arrowRight" id="rightArrow" src="{% static 'main/images/arrowRight.png' %}" alt="right arrow">
+    </div>
+    <main class="main">
+            <div class="categories">
+                <section>
+                    <div class="logoSection logoSect1">
+                        <img class="logoToPopular img-logo-sect1" src="{% static 'main/images/logoToPopular.png' %}" alt="pencil">
+                    </div>
+                    <h4 class="h-section">Contrary to popular</h4>
+                    <p class="text-section">
+                        Lorem Ipsum is not simply random text. It has roots in a piece
+                    </p>
+                </section>
+                <div class="mini-del"></div>
+                <section>
+                    <div class="logoSection logoSect2">
+                        <img class="logoToPopular img-logo-sect2" src="{% static 'main/images/logo-desktop.png' %}" alt="pencil">
+                    </div>
+                    <h4 class="h-section">Contrary to popular</h4>
+                    <p class="text-section">
+                        Lorem Ipsum is not simply random text. It has roots in a piece
+                    </p>
+                </section>
+                <div class="mini-del"></div>
+                <section>
+                    <div class="logoSection logoSect3">
+                        <img class="logoToPopular img-logo-sect3" src="{% static 'main/images/logo-basket.png' %}" alt="pencil">
+                    </div>
+                    <h4 class="h-section">Contrary to popular</h4>
+                    <p class="text-section">
+                        Lorem Ipsum is not simply random text. It has roots in a piece
+                    </p>
+                </section>
+                <div class="mini-del"></div>
+            </div>
+            <div class="shoppingCart">
+                <div class="shoppingCart_leftContent">
+                    <h3>The Shopping cart</h3>
+                    <img src="{% static 'main/images/basket.png' %}" alt="basket">
+                </div>
+                <div class="shoppingCart_rightContent">
+                    <h4>Some Bullet text here</h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        Lorem Ipsum has been the industry's standard dummy text ever
+                        When an unknown printer took a galley of type and scrambled
+                        It to make a type specimen book. It has survived not only five centuries
+                        But also the leap into electronic typesetting,
+                        Remaining essentially unchanged. It was popularised
+                        The release of Letraset sheets containing Lorem Ipsum passages
+                    </p>
+                </div>
+            </div>
+        </main>
+  {% endblock content %}
+    {% block script %}
+        <script src="{% static 'main/js/script.js' %}"></script>
+    {% endblock script %}

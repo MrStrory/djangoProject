@@ -1,0 +1,125 @@
+.content {
+    width: 100%;
+}
+
+.header {
+    padding: 6px 20px 0;
+    height: inherit;
+    min-height: 89px;
+}
+
+nav {
+    margin-block-end: 0;
+}
+
+.menu {
+    display: none;
+}
+
+.small-menu {
+    display: block;
+}
+
+.navbar {
+    margin-top: 8px;
+    justify-content: flex-end;
+}
+
+.bg-navbar {
+    background: #fff;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 10px;
+}
+
+.nav-link:hover {
+    background: #5094F2;
+}
+
+.navbar>.container, .navbar>.container-fluid,
+.navbar>.container-sm, .navbar>.container-xl,
+.navbar>.container-xxl {
+    justify-content: flex-end;
+}
+
+.arrowLeft, .arrowRight {
+    display: none;
+}
+
+.carousel {
+    height: 300px;
+}
+
+.carouselContent {
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.text-carousel {
+    margin-left: 30px;
+}
+
+.text-carousel h3 {
+    font-size: 33px;
+}
+
+.carouselContent > img {
+    height: 90%;
+    margin-top: 29px;
+}
+
+.text-carousel {
+    margin-top: 38px;
+}
+
+.text-carousel p, .text-carousel button {
+    margin-left: 10px;
+}
+
+.categories {
+    padding-right: 20px;
+    padding-left: 20px;
+    display: block;
+}
+
+.categories section {
+    width: auto;
+    min-height: 190px;
+}
+
+.mini-del {
+    height: 1px;
+    background: black;
+}
+
+.categories section:not(:first-child) {
+    margin-top: 20px;
+}
+
+.categories section:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.logoSection {
+    float: left;
+}
+
+.categories section h4 {
+    padding-top: 40px;
+}
+
+.shoppingCart {
+    margin-top: 43px;
+    padding-right: 40px;
+    padding-left: 40px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.shoppingCart_rightContent {
+    margin-top: 21px;
+}

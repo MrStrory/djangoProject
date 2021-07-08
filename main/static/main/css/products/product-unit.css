@@ -1,0 +1,50 @@
+.main-product {
+    padding-top: 30px;
+    background: #fff;
+}
+
+.product-title {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Segoe WP Light", sans-serif;
+
+}
+
+.product-text {
+    padding-top: 40px;
+    padding-right: 100px;
+    margin-left: -80px;
+}
+
+.product-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.product-price-btn {
+    margin-top: 70px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.product-price {
+    margin: 0;
+}
+
+.product-btn {
+    margin-top: -10px;
+    margin-left: 40px;
+    background: #5094F2;
+    border: none;
+    font-family: "Segoe WP Light", sans-serif;
+    font-size: 20px;
+}
+
+.product-btn:hover {
+    background: #000;
+    color: #fff;
+}
